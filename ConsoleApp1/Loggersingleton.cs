@@ -4,7 +4,8 @@ public class Loggersingleton
     public static Loggersingleton logger;  // creating a static instance of the same class to return to caller 
     
     /* in Singletoo desingpattern we dont want to allow caller to create multiple objects of the same class, 
-    so we are decorating constructor as private, the private method can be called only with in the class*/
+    so we are decorating constructor as private, the private method can be called only with in the class
+    Usage : Use this pattern when we want to have only one object of the class : Drivers, Registry setting modules,logging*/
     private Loggersingleton()  
     {
 
