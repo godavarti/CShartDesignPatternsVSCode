@@ -4,3 +4,9 @@ Structure :- Programs.cs is used to demonstrate differnt design patterns
              One or multiple classess will be created to demonstrate a desing pattern
 Singleton :- LoggerSingleton.cs this class demonstrates the singleton desing pattern implementations
              LoggerInstance.cs this calss demonstrates the singleton desing pattern implementations with get method ,C# recommended way.
+Factory  :- Isolate object creation in a solution to a specific class    
+            To demonstrate Factory pattern, we take a scenario of invoice payment processing based on customer selected payment method          
+            IPayment.cs , it has an interface all payment methods like ApplePay, SamsungPay,Paypall, PayTM, CachPay implements this interface 
+            ChasPayment.cs, SamsungPayment.cs,ApplePayment.cs,ChasPayment.cs,Paypallpayment.cs,PayTMPayment.cs are implementations of Ipayment interface 
+            PaymentFatory.cs creates an implementation object based on customer payment method selection 
+            
