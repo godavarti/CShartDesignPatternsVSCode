@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 public class Program
@@ -37,5 +38,23 @@ if (result)
 payobject.Payment(inoviceamount);   //Ipayment Intrface has ApplePayment object hence, it invokes Payment method in ApplePayment object 
 else
 Console.WriteLine(" Invalid output");
-}
+
+////Factory  Tester --Start
+
+////TemplateMethod  Tester --Start
+
+Console.WriteLine("TemplateMethod Pattern Testing");
+ CloudResoruceManagement cr = new AzureResoruceManagement();  // Azure RM object is created and assinged to its super calss reference. This refernece calss implementation methods bases on the object it is refereing 
+Console.WriteLine( "I am object for AzureResoruceManagement Class, my hash coide is "+ cr.GetHashCode().ToString() + " my type is "+ cr.GetType().ToString());
+cr.createResource();  // This is commomn method for all cloud provider, hence defined in the supler class and same inherited 
+cr.scaleupresoruces(); // This is commomn method for all cloud provider, hence defined in the supler class and same inherited 
+cr.scaledownresource(); // This is commomn method for all cloud provider, hence defined in the supler class and same inherited 
+cr= new AWSResoruceManagement();   // AWS RM object is created and assinged to its super calss reference. This refernece calss implementation methods bases on the object it is refereing 
+Console.WriteLine( "I am object for AWSResoruceManagement Class, my hash coide is "+ cr.GetHashCode().ToString() + " my type is "+ cr.GetType().ToString());
+cr.createResource();// This is commomn method for all cloud provider, hence defined in the supler class and same inherited 
+cr.scaleupresoruces();// This is commomn method for all cloud provider, hence defined in the supler class and same inherited 
+cr.scaledownresource(); // This is commomn method for all cloud provider, hence defined in the supler class and same inherited 
+
+    }//main
+
 }
