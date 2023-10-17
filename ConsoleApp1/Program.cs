@@ -55,6 +55,15 @@ cr.createResource();// This is commomn method for all cloud provider, hence defi
 cr.scaleupresoruces();// This is commomn method for all cloud provider, hence defined in the supler class and same inherited 
 cr.scaledownresource(); // This is commomn method for all cloud provider, hence defined in the supler class and same inherited 
 
+ ////faced pattren  Tester --Start   
+  Console.WriteLine("faced Pattern Testing");
+  usermanagement um = new usermanagement ("BNO002234", 233456, "GVSSRETeam" );
+  um.onbaorduser(); /// A sequence of steps are executed to create user, however the dev no need to undersand the sequence and inner details and algortithem
+  um.offboarduser("23456ABC"); /// A sequence of steps are executed to remove user, however the dev no need to undersand the sequence and inner details and algortithem
+
+
+    
+    
     }//main
 
 }
