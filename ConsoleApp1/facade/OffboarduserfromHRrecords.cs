@@ -1,6 +1,6 @@
 public class OffboarduserfromHRrecords
 {
-    int userno;
+    string userno;
     public OffboarduserfromHRrecords(string uno)
     {
            userno=uno;
