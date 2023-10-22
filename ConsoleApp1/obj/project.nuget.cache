@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "q6tDcSfyDLfaSPtilGR7GR8SlwF/s52QnZRfFqVmdLw4Z8YgwIXKiy/xloOG00B86f7lBOA5wjpV9rvErIIHNA==",
+  "dgSpecHash": "xRyGchXCHNEwEfDCsHZ/0DG8hVj8qGVtDHItRVO7ZZchB+kj5KH6k+LlWNd4Obiu/Hw5D9RBM4hFGY0TqTBQ3A==",
   "success": true,
-  "projectFilePath": "C:\\c#\\CShartDesignPatternsVSCode\\ConsoleApp1\\ConsoleApp1.csproj",
+  "projectFilePath": "C:\\C#\\DesignPatterns\\singleton\\ConsoleApp1\\ConsoleApp1.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

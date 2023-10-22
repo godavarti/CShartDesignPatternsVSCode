@@ -8,24 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\vigodava\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\vigodava\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\c#\\CShartDesignPatternsVSCode\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectUniqueName": "C:\\C#\\DesignPatterns\\singleton\\ConsoleApp1\\ConsoleApp1.csproj",
       "projectName": "ConsoleApp1",
-      "projectPath": "C:\\c#\\CShartDesignPatternsVSCode\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectPath": "C:\\C#\\DesignPatterns\\singleton\\ConsoleApp1\\ConsoleApp1.csproj",
       "packagesPath": "C:\\Users\\vigodava\\.nuget\\packages\\",
-      "outputPath": "C:\\c#\\CShartDesignPatternsVSCode\\ConsoleApp1\\obj\\",
+      "outputPath": "C:\\C#\\DesignPatterns\\singleton\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
         "C:\\Users\\vigodava\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -33,7 +28,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
