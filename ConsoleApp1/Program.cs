@@ -61,9 +61,16 @@ cr.scaledownresource(); // This is commomn method for all cloud provider, hence 
   um.onbaorduser(); /// A sequence of steps are executed to create user, however the dev no need to undersand the sequence and inner details and algortithem
   um.offboarduser("23456ABC"); /// A sequence of steps are executed to remove user, however the dev no need to undersand the sequence and inner details and algortithem
 
+//Adatper Patter Start here
+Power240 p = new Power240();
+ Converter240to120 coverter = new Converter240to120(p); // In India , I have only 240 W, so I created Power240 object and passed to converter
+ coverter.about();
+ coverter.consumpower120(240); // This metod process the Power240 object and step down it to 120
 
     
-    
+
+//Adatper Patter end here
+
     }//main
 
 }

@@ -12,3 +12,10 @@ Factory  :- Isolate object creation in a solution to a specific class
 Template Method : CloudResoruceManagement.cs is an abstract class used to implement tempale methods:  scaleup and scaledown and defined the common code for both cloud providers that is create resoruce method.
                  AWSResoruceManagement.cs is implementation class for AWS Cloud resoruces 
                  AzureResoruceManagement.cs is implementation class for Azure Cloud resoruces
+Adpater  : Adapter is a structural design pattern, which allows incompatible objects to collaborate. The Adapter acts as a wrapper between two objects.
+            It catches calls for one object and transforms them to format and interface recognizable by the second object.
+            It’s very often used in systems based on some legacy code. In such cases, Adapters make legacy code work with modern classes.
+            dapter is recognizable by a constructor which takes an instance of a different abstract/interface type. When the adapter receives a call to any of its methods, it translates parameters to the 
+             appropriate format and then directs the call to one or several methods of the wrapped object.
+            Classe used Power120.cs  ( implements for US power consumption), Poweer240.cs (implements for India power consumption),Converter240to120.cs (enables employee from US to use Device with 120 power copacity by converting from 240 w to 120 W)
+            interfaces : Ipower120.cs, Ipower24.cs
